@@ -1,6 +1,11 @@
 #include<stdio.h>
 void main()
 {
-	printf("MY FIRST C PROGRAM");
+	int a,b,c;
+	printf("Enter two number");
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	printf("Sum = %d",c);
+
 }
 
